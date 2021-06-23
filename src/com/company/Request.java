@@ -7,7 +7,7 @@ public enum Request {
     PREVENTION("Prevence");
     private String description;
 
-    private Request(String description){
+    Request(String description){
         this.description = description;
     }
 
